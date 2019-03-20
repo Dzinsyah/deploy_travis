@@ -67,6 +67,6 @@ from blueprints.public import bp_public
 app.register_blueprint(bp_product, url_prefix = '/user/product')
 app.register_blueprint(bp_user, url_prefix = '/user/register')
 app.register_blueprint(bp_login, url_prefix = '/user/login')
-app.register_blueprint(bp_public, url_prefix = '/public/product')
+app.register_blueprint(bp_public, url_prefix = '/public/barang')
 
 db.create_all()

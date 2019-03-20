@@ -6,7 +6,7 @@ from blueprints import db, app
 from blueprints.product import Products
 from logging.handlers import RotatingFileHandler
 from flask_jwt_extended import jwt_required, get_jwt_claims
-
+from flask_sqlalchemy import desc
 
 bp_public = Blueprint('public', __name__)
 api = Api(bp_public)
