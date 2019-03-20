@@ -11,7 +11,7 @@ from datetime import timedelta
 app = Flask(__name__)
 
 app.config['APP_DEBUG'] = True
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:diar0403@localhost:3306/rest_svc'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:diar0403@localhost:3306/rest_svc'172.31.37.180
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://dzinmariadb:bismillah@172.31.37.180/portofolio'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
